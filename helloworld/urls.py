@@ -20,5 +20,5 @@ from helloworld import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('response/',response),
+    path('',response),
 ]
